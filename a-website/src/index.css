@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+
+.navbar p {
+  margin-left: 8px;
+  font-size: 25px;
+  color: #FF5A5F;
+  font-weight: 500;
+}
+
+section {
+  padding: 20px;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.heroContainer img {
+  align-self: center;
+  max-width: 874px;
+}
+
+
+.heroContainer h1 {
+  font-size: 50px;
+  padding-top: 30px;
+  padding-left:100px;
+  font-weight: 600;
+}
+
+.card {
+  width: 200px;
+  font-size: 14px;
+  flex: 0 0 auto;         
+  display: flex;         
+  flex-direction: column;
+  position: relative;
+}
+.card:hover img{
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.card--star {
+  height: 16px;
+}
+
+
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  justify-content: center;
+  overflow-x: auto;
+  
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.card p{
+  margin: 5px 0;
+}
+
+.cardBadge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
