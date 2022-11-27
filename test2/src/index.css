@@ -61,3 +61,10 @@ nav {
   color: #61DAFB;
   font-size: 1.5em;
 }
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background: #21222A;
+  color: white;
+}
